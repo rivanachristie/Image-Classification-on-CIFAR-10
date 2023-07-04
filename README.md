@@ -5,7 +5,8 @@ In this project, classification of images in the CIFAR-10 dataset will be done u
 3. Convolutional Neural Networks (CNN)
 
 # About the dataset
-The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
+The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images. 
+
 Link to dataset: https://www.cs.toronto.edu/~kriz/cifar.html 
 
 # Data Modeling
