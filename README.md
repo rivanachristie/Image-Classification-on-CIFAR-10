@@ -25,3 +25,12 @@ Finally, we train the SVM model using polynomial kernel.
 ## Convolutional Neural Network (CNN)
 Convolutional Neural Network (CNN) is a deep learning technique that takes an image as an input, assigns weights and biases to various aspects of the image to differentiate from one another. CNN is a very suitable technique for a complex task like image classification and can yield very high accuracy even on unseen data.
 
+As part of data preprocessing for CNN, we performed data augmentation to increase the diversity of the dataset by applying certain image transformations. Then, a CNN with 6 convolutional layers is built, Max pooling and dropout are also used to build a robust model.
+
+# Data Modeling
+
+|Model | Train Accuracy | Test Accuracy |
+| ------------- | ------------- | ------------- |
+|Logistic Regression |    43.64%	| 41.48% |
+|Support Vector Machine (SVM)| 47.71%| 45.94% |
+|Convolutional Neural Network (CNN)| 90.48%	| 89.25% |
