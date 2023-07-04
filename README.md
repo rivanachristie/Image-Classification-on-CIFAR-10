@@ -27,10 +27,17 @@ Convolutional Neural Network (CNN) is a deep learning technique that takes an im
 
 As part of data preprocessing for CNN, we performed data augmentation to increase the diversity of the dataset by applying certain image transformations. Then, a CNN with 6 convolutional layers is built, Max pooling and dropout are also used to build a robust model.
 
+![image](https://github.com/rivanachristie/Image-Classification-on-CIFAR-10/assets/98617715/107d716d-b15f-49e8-80de-26ba95cb8f06)
+
 # Data Modeling
 
-|Model | Train Accuracy | Test Accuracy |
-| ------------- | ------------- | ------------- |
-|Logistic Regression |    43.64%	| 41.48% |
-|Support Vector Machine (SVM)| 47.71%| 45.94% |
-|Convolutional Neural Network (CNN)| 90.48%	| 89.25% |
+|Model | Train Accuracy | Test Accuracy | Time Taken (in seconds) |
+| ------------- | ------------- | ------------- | ---- |
+|Logistic Regression |    43.64%	| 41.48% | 13816.66 |
+|Support Vector Machine (SVM)| 47.71%| 45.94% | 12868.96 |
+|Convolutional Neural Network (CNN)| 90.48%	| 89.25% | 5779.12 |
+
+![image](https://github.com/rivanachristie/Image-Classification-on-CIFAR-10/assets/98617715/442410a0-51b8-4076-9e33-83577e909cc1)
+
+# Conclusion
+There are various parameters that can be considered to compare between the models that are used. In this project, I have considered accuracy and training time as effective predictors for comparison. From the table above, it is clear that CNN is the best model in terms of both accuracy and training time. It outshines Logistic Regression and SVM by almost doubling the accuracy in half the training time.
