@@ -10,3 +10,18 @@ Link to dataset: https://www.cs.toronto.edu/~kriz/cifar.html
 
 # Data Modeling
 ## Logistic Regression
+Logistic Regression is a baseline model for this dataset. To preprocess the data, we performed:
+1. Normalization using Normalizer()
+2. Regularization using L2 penalty
+
+## Support Vector Machine
+Support Vector Machine (SVM) is a Machine Learning technique that is used for classification as well as regression. The SVM operates by finding a hyperplane in the N-dimensional space that can distinctly qualify the data points, where N is the number of features. The goal is to maximize the distance between the data points of the classes. 
+
+To preprocess the data for the SVM model, we performed the following steps:
+1. Normalization using Normalizer()
+2. Scaling using StandardScaler()
+Finally, we train the SVM model using polynomial kernel.
+
+## Convolutional Neural Network (CNN)
+Convolutional Neural Network (CNN) is a deep learning technique that takes an image as an input, assigns weights and biases to various aspects of the image to differentiate from one another. CNN is a very suitable technique for a complex task like image classification and can yield very high accuracy even on unseen data.
+
