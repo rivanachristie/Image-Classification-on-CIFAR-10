@@ -21,6 +21,7 @@ Support Vector Machine (SVM) is a Machine Learning technique that is used for cl
 To preprocess the data for the SVM model, we performed the following steps:
 1. Normalization using Normalizer()
 2. Scaling using StandardScaler()
+
 Finally, we train the SVM model using polynomial kernel.
 
 ## Convolutional Neural Network (CNN)
